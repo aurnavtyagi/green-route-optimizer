@@ -1,0 +1,38 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+
+# Local editor and OS files
+.vscode/
+
+# Local environment files
+.env
+.streamlit/secrets.toml
+.streamlit/credentials.toml
+
+# Generated app artifacts
+reports/
+delhi_boundary.html
+delhi_roads_probe_count.html
+facilities_map.html
+architecture_diagram.png
+complete_project_flow.png
+flow_diagram.png
+data/processed/
+
+# Local notebooks / caches from generated analysis
+*.docx
+*.pdf
+*.xlsx
+*.html
+*.png
+
+# Large source datasets and archives
+data/raw/
+*.zip
+
