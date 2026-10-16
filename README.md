@@ -238,6 +238,18 @@ The recommended route should be treated as an estimate and not as a guarantee
 of the lowest real-world emissions or safest journey. Users should follow local
 traffic rules, current road closures, weather warnings, and public-health advice.
 
+## License and data sources
+
+The original source code in this repository is released under the
+[MIT License](./LICENSE).
+
+The application uses external services and datasets that may have their own
+terms, licenses, attribution requirements, rate limits, and usage restrictions.
+These include OSRM for route data, OpenStreetMap-based geocoding, Open-Meteo
+for weather data, and AQICN/WAQI for optional air-quality data. Those services
+are not relicensed by this repository. Review and comply with each provider's
+current terms before deploying the application or redistributing their data.
+
 ## Contributing
 
 Contributions are welcome. Before opening a pull request:
