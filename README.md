@@ -162,8 +162,9 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-If you are running the model and reporting workflows, also install the
-model-specific dependencies:
+The root `requirements.txt` contains only the dependencies needed by the
+Streamlit application. If you are running the model and reporting workflows,
+also install the model-specific dependencies:
 
 ```bash
 pip install -r models/requirements.txt
